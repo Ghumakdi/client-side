@@ -12,7 +12,9 @@ function SearcAreaComponent() {
           <div className='mt-3'>
             <h1 className='text-xl font-bold'>Recommendation:</h1>
           </div>
-          
+          <div className='p-0'>
+            <SearchAreaCarousel/>
+          </div>
     </div>
   )
 }
