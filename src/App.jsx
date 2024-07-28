@@ -3,10 +3,11 @@ import './App.css'
 import HeaderComponent from './components/HeaderComponents/HeaderComponent'
 import SearcAreaComponent from './components/ContentAreaComponents/SearcAreaComponent'
 import FilterAreaComponent from './components/ContentAreaComponents/FilterAreaComponent'
+import useLocation from './hooks/useLocation'
 
 function App() {
+  const {location , error} = useLocation();
   
-
   return (
     <>
         <div className='flex h-screen m-0 p-0 box-border mx-auto justify-center flex-col'> 
